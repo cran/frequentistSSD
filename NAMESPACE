@@ -1,0 +1,10 @@
+importFrom("stats", "dgamma", "dlnorm", "dnorm", "integrate", "pgamma",
+           "plnorm", "pnorm", "punif", "qnorm", "runif", "rweibull",
+           "uniroot")
+import("survival")
+export(get_oc)
+export(optimal)
+export(sample_size)
+export(sample_size_3arm)
+export(get_oc_3arm)
+export(sampsize_1stage_2arm)

@@ -1,0 +1,15 @@
+db4dd5c2f6345573e066e1162aebc890 *DESCRIPTION
+ecb282cb53cfeac336bfaa2728a13216 *NAMESPACE
+fcc27a62ff2bfe098d876355fe564a42 *R/get_oc.R
+6bfdc26f68918ee76b58c8c9c9173182 *R/get_oc_3arm.R
+98c58eb3ce29bc44fb2fe2ad1c52efa9 *R/optimal.KJ.R
+f7e3166ecd97d9dd01f2772ca8765781 *R/optimal.R
+c2f53e700de2c7a1cb3a3f605d7850dc *R/sample_size.R
+4f3b0698b2fcead7f3aff10e68fdd2c5 *R/sample_size_3arm.R
+bf4b0dc3cd1a4cd678bc9d9270bb0fa3 *R/sampsize_1stage_2arm.R
+17fe41bab19418ee87e45921f1b054fd *man/get_oc.Rd
+3a58cf3d4136b3633098a3ea00237d6d *man/get_oc_3arm.Rd
+feb3d85dba2d708fabeec7148bf9b0cc *man/optimal.Rd
+7f08bd1c3f2be7221ee7c4c59aca0eef *man/sample_size.Rd
+1a80ecffa999a9f04f9d8946aa980880 *man/sample_size_3arm.Rd
+9cbc2ad6f46808311537d2169b88f6ef *man/sampsize_1stage_2arm.Rd
