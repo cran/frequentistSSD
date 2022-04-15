@@ -1,7 +1,7 @@
 Package: frequentistSSD
 Type: Package
 Title: Screened Selection Design with Survival Endpoints
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Chia-Wei", "Hsu", role = c("aut", "cre"),
                      email = "Chia-Wei.Hsu@stjude.org"),
              person("Haitao", "Pan", role = "aut"),
@@ -12,9 +12,9 @@ License: GPL-2
 Encoding: UTF-8
 Depends: survival
 NeedsCompilation: no
-Packaged: 2021-09-16 17:29:37 UTC; chsu1
+Packaged: 2022-04-15 18:01:02 UTC; chsu1
 Author: Chia-Wei Hsu [aut, cre],
   Haitao Pan [aut],
   Jianrong Wu [aut]
 Repository: CRAN
-Date/Publication: 2021-09-16 18:50:06 UTC
+Date/Publication: 2022-04-15 18:12:29 UTC

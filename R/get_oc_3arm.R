@@ -121,6 +121,30 @@ get_oc_3arm <- function(shape, m0, mA, hr2, hr3, frac, ta, tf, c1, c, diff, n, n
   ProbArmC.2ndSeg<-sum(SSD.SelectArm.2ndSeg[,3],na.rm=TRUE)/nsim
   ProbNoArm.2ndSeg<-sum(SSD.SelectArm.2ndSeg[,4],na.rm=TRUE)/nsim
 
+  if(is.na(Prob.select.ArmA)){
+    Prob.select.ArmA <- 0
+  }
+  if(is.na(Prob.select.ArmB)){
+    Prob.select.ArmB <- 0
+  }
+  if(is.na(Prob.select.ArmC)){
+    Prob.select.ArmC <- 0
+  }
+  if(is.na(ProbArmA.2ndSeg)){
+    ProbArmA.2ndSeg <- 0
+  }
+  if(is.na(ProbArmB.2ndSeg)){
+    ProbArmB.2ndSeg <- 0
+  }
+  if(is.na(ProbArmC.2ndSeg)){
+    ProbArmC.2ndSeg <- 0
+  }
+  if(is.na(Prob.NoArm)){
+    Prob.NoArm <- 0
+  }
+  if(is.na(ProbNoArm.2ndSeg)){
+    ProbNoArm.2ndSeg <- 0
+  }
   Overall.ArmA<-Prob.select.ArmA + ProbArmA.2ndSeg
   Overall.ArmB<-Prob.select.ArmB + ProbArmB.2ndSeg
   Overall.ArmC<-Prob.select.ArmC + ProbArmC.2ndSeg

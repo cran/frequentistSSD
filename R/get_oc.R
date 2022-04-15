@@ -94,6 +94,25 @@ get_oc=function(shape, m0, mA, hr, frac, ta, tf, c1, c, diff, n, nsim, seed = 24
   ProbArmB.2ndSeg<-sum(SSD.SelectArm.2ndSeg[,2],na.rm=TRUE)/nsim
   ProbNoArm.2ndSeg<-sum(SSD.SelectArm.2ndSeg[,3],na.rm=TRUE)/nsim
 
+  if(is.na(Prob.select.ArmA)){
+    Prob.select.ArmA <- 0
+  }
+  if(is.na(Prob.select.ArmB)){
+    Prob.select.ArmB <- 0
+  }
+  if(is.na(ProbArmA.2ndSeg)){
+    ProbArmA.2ndSeg <- 0
+  }
+  if(is.na(ProbArmB.2ndSeg)){
+    ProbArmB.2ndSeg <- 0
+  }
+  if(is.na(Prob.NoArm)){
+    Prob.NoArm <- 0
+  }
+  if(is.na(ProbNoArm.2ndSeg)){
+    ProbNoArm.2ndSeg <- 0
+  }
+
   Overall.ArmA<-Prob.select.ArmA + ProbArmA.2ndSeg
   Overall.ArmB<-Prob.select.ArmB + ProbArmB.2ndSeg
   Overall.NoArm<-Prob.NoArm + ProbNoArm.2ndSeg

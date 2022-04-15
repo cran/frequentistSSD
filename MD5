@@ -1,7 +1,7 @@
-db4dd5c2f6345573e066e1162aebc890 *DESCRIPTION
+f6e55f5ea9401ae9b9f7c04a6172fa43 *DESCRIPTION
 ecb282cb53cfeac336bfaa2728a13216 *NAMESPACE
-fcc27a62ff2bfe098d876355fe564a42 *R/get_oc.R
-6bfdc26f68918ee76b58c8c9c9173182 *R/get_oc_3arm.R
+da0cfaf0711e66885354af101ec56dc7 *R/get_oc.R
+65d4505c51363bec8b7a03c1c1d6bb5b *R/get_oc_3arm.R
 98c58eb3ce29bc44fb2fe2ad1c52efa9 *R/optimal.KJ.R
 f7e3166ecd97d9dd01f2772ca8765781 *R/optimal.R
 c2f53e700de2c7a1cb3a3f605d7850dc *R/sample_size.R
